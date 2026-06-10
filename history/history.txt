@@ -1,0 +1,56 @@
+[ ec2-user@ip-172-31-22-96 ~/ansible-90 ]$ history
+    1  13/01/26 18:30:51 sudo dnf update -y
+    2  13/01/26 18:30:51 sudo dnf update -y
+    3  13/01/26 18:37:26 sudo init 0
+    4  10/06/26 10:14:15 sudo dnf install ansible -y
+    5  10/06/26 10:14:44 ansible version
+    6  10/06/26 10:18:19 ansible --version
+    7  10/06/26 10:22:36 telnet 172.31.26.130 22
+    8  10/06/26 10:25:11 ansible all -i 172.31.26.130, -e ansible_user=ec2-user -e ansible_password=DevOps321 -m ping
+    9  10/06/26 10:27:14 ansible all -i 172.31.26.130, -e ansible_user=ec2-user -e ansible_password=DevOps321 -m package -a "name=nginx state=installed"
+   10  10/06/26 10:28:47 ansible all -i 172.31.26.130, -e ansible_user=ec2-user -e ansible_password=DevOps321 -b -m dnf -a "name=nginx state=installed"
+   11  10/06/26 10:31:12 ansible all -i 172.31.26.130, -e ansible_user=ec2-user -e ansible_password=DevOps321 -b -m dnf -a "name=nginx state=started"
+   12  10/06/26 10:31:42 ansible all -i 172.31.26.130, -e ansible_user=ec2-user -e ansible_password=DevOps321 -b -m service -a "name=nginx state=started"
+   13  10/06/26 11:41:22 git clone https://github.com/jaganmohan5525/ansible-90.git
+   14  10/06/26 11:41:28 cd ansible-90/
+   15  10/06/26 11:44:01 ansible-playbook -i inventory.ini 01-playbook.yaml
+   16  10/06/26 11:44:21 git pull
+   17  10/06/26 11:44:30 ansible-playbook -i inventory.ini 01-playbook.yaml
+   18  10/06/26 11:45:52 ansible-playbook -i inventory.ini -e ansible-user=ec2-user -e ansible-password=DevOps321 01-playbook.yaml
+   19  10/06/26 11:47:36 ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 01-playbook.yaml
+   20  10/06/26 11:58:12 git pu;;
+   21  10/06/26 11:58:22 git pull
+   22  10/06/26 11:58:48 ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 02-playbook.yaml
+   23  10/06/26 12:00:18 git pull
+   24  10/06/26 12:00:24 ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 02-playbook.yaml
+   25  10/06/26 12:07:30 git pull
+   26  10/06/26 12:08:03 ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 03-playbook.yaml
+   27  10/06/26 12:08:32 git pull
+   28  10/06/26 12:08:36 ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 03-playbook.yaml
+   29  10/06/26 12:09:03 ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 03-nginx.yaml
+   30  10/06/26 12:18:26 git pull
+   31  10/06/26 12:18:43 ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 04-vars.yaml
+   32  10/06/26 12:20:20 git pull
+   33  10/06/26 12:20:23 ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 04-vars.yaml
+   34  10/06/26 12:21:19 git pull
+   35  10/06/26 12:21:25 ansible-playbook -i inventory.ini -e ansible_user=ec2-user -e ansible_password=DevOps321 04-vars.yaml
+   36  10/06/26 12:22:36 ansible-playbook 04-vars.yaml
+   37  10/06/26 12:29:49 history
+
+54.147.211.104 | 172.31.22.96 | t3.micro | https://github.com/jaganmohan5525/ansible-90.git
+[ ec2-user@ip-172-31-22-96 ~/ansible-90 ]$
+
+===========================================================
+
+18.206.235.78 | 172.31.26.130 | t3.micro | null
+[ ec2-user@ip-172-31-26-130 ~ ]$ history
+    1  13/01/26 18:30:51 sudo dnf update -y
+    2  13/01/26 18:30:51 sudo dnf update -y
+    3  13/01/26 18:37:26 sudo init 0
+    4  10/06/26 10:32:22 netstat -lntp
+    5  10/06/26 12:29:40 history
+
+
+===========================
+
+
