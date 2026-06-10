@@ -1,0 +1,5 @@
+- name: ping the server
+  hosts: #target server name
+  tasks: #tasks == module == collections
+  - name: ping the server
+    ping:
